@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name": "audio-download",
+    "script": "src/main.coffee",
+    "instances": 2,
+    "exec_mode": "cluster",
+    "env": {
+      "production": true
+    }
+  }]
+}
